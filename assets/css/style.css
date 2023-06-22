@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'PP SIG Flow';
+    src: url(../fonts/PP-SIG-Flow/PPSIGFlow-Regular.otf);
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #FCFCFC;
+    z-index: 100;
+}
+nav ul a{
+    text-decoration: none;
+    font-family: 'PP SIG Flow';
+    font-style: normal;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #040404;
+}
+nav ul a li{
+    list-style: none;
+    
+}
+nav ul a.active{
+    color: #145EFC;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2EFEB;
+    overflow: hidden;
+}
+main img{
+    position: absolute;
+    width: 800px;
+    top: -200px;
+    right: -250px;
+    transform: rotate(160deg);
+}
