@@ -1,4 +1,4 @@
-function myFunction(x) {
+function orderAdd(x) {
     var heroTxt = document.querySelector('.hero-text');
     if (x.matches) { // If media query matches
         heroTxt.classList.add("order-first");
@@ -8,5 +8,5 @@ function myFunction(x) {
 }
 
 var x = window.matchMedia("(max-width: 414px)");
-myFunction(x); // Call listener function at run time
-x.addListener(myFunction);
+orderAdd(x); // Call listener function at run time
+x.addListener(orderAdd);
