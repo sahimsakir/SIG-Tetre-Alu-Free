@@ -7,6 +7,6 @@ function orderAdd(x) {
     }
 }
 
-var x = window.matchMedia("(max-width: 414px)");
+var x = window.matchMedia("(max-width: 540px)");
 orderAdd(x); // Call listener function at run time
 x.addListener(orderAdd);
